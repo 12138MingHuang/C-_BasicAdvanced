@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Const">
+      <UniqueIdentifier>{91e48127-0d1f-4ddf-bd9b-04ee11bc688d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Static">
+      <UniqueIdentifier>{9314ad38-ea76-4e41-a902-55545107369b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\This">
+      <UniqueIdentifier>{d9cdc6ce-8f73-43f9-b102-adb8d8b9f4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Inline">
+      <UniqueIdentifier>{ba06ab43-f8e7-4cfa-af13-637c16e328c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Sizeof">
+      <UniqueIdentifier>{0a00062c-dc02-4425-b2c0-60ce2362b73b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\FuncPointer">
+      <UniqueIdentifier>{4a983c71-627e-4a65-b77b-0093b498f4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Abstract">
+      <UniqueIdentifier>{a70b6472-b833-4797-93cd-21b4f92a2014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Vptr_Vtable">
+      <UniqueIdentifier>{63935499-1751-4c6f-aa1b-15685b95cbe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Virtual">
+      <UniqueIdentifier>{0926868c-d99c-4c3b-95cc-05ac763d5579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Volatile">
+      <UniqueIdentifier>{61cdaecb-1f3a-471c-83ce-4f02d5831fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Assert">
+      <UniqueIdentifier>{e4acf606-4abf-4c4d-aca8-aa617d448d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\BitField">
+      <UniqueIdentifier>{24f5981f-99cb-4346-a67f-903bbec49b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Extern">
+      <UniqueIdentifier>{57db0d04-1005-40dd-ab6a-a47e27ad782a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Struct">
+      <UniqueIdentifier>{2b18569b-ee45-45e7-aa11-9f723f2f0a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Struct_Class">
+      <UniqueIdentifier>{330d419b-df2b-42b0-b74a-6a49230f80cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Union">
+      <UniqueIdentifier>{e26e9f57-a5d0-4c52-a921-01a7e80dcf06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++_C_poly">
+      <UniqueIdentifier>{23338d79-e275-4966-acd7-98020c15c897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Explicit">
+      <UniqueIdentifier>{3025e674-15fb-4841-a063-175a0cf44872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Friend">
+      <UniqueIdentifier>{03327d43-faa5-46ae-8703-c3cb41b1106b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Using">
+      <UniqueIdentifier>{788d3cfa-3151-4987-a09b-887c5c1e5bfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\::">
+      <UniqueIdentifier>{69ac1875-6ce7-46da-8892-e02acabbd597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Enum">
+      <UniqueIdentifier>{2394cc1c-63d2-407d-81a3-8da46a4984c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Decltype">
+      <UniqueIdentifier>{34973555-c49b-4ade-a250-e585a7ec3c3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\References&amp;pointers">
+      <UniqueIdentifier>{c64b7a58-a84b-4ec3-a067-8718bd123e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Define">
+      <UniqueIdentifier>{23607e85-a07b-4362-933d-47d32b3455e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_const.cpp">
+      <Filter>源文件\Const</Filter>
+    </ClCompile>
+    <ClCompile Include="file1.cpp">
+      <Filter>源文件\Const</Filter>
+    </ClCompile>
+    <ClCompile Include="file2.cpp">
+      <Filter>源文件\Const</Filter>
+    </ClCompile>
+    <ClCompile Include="const_file1.cpp">
+      <Filter>源文件\Const</Filter>
+    </ClCompile>
+    <ClCompile Include="const_file2.cpp">
+      <Filter>源文件\Const</Filter>
+    </ClCompile>
+    <ClCompile Include="point_const.cpp">
+      <Filter>源文件\Const</Filter>
+    </ClCompile>
+    <ClCompile Include="const_function.cpp">
+      <Filter>源文件\Const</Filter>
+    </ClCompile>
+    <ClCompile Include="const_class.cpp">
+      <Filter>源文件\Const</Filter>
+    </ClCompile>
+    <ClCompile Include="static_var.cpp">
+      <Filter>源文件\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="static_member.cpp">
+      <Filter>源文件\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="static_limitAccess1.cpp">
+      <Filter>源文件\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="static_limitAccess2.cpp">
+      <Filter>源文件\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="this_point.cpp">
+      <Filter>源文件\This</Filter>
+    </ClCompile>
+    <ClCompile Include="inline.cpp">
+      <Filter>源文件\Inline</Filter>
+    </ClCompile>
+    <ClCompile Include="inline_virtual.cpp">
+      <Filter>源文件\Inline</Filter>
+    </ClCompile>
+    <ClCompile Include="blackclass.cpp">
+      <Filter>源文件\Sizeof</Filter>
+    </ClCompile>
+    <ClCompile Include="static.cpp">
+      <Filter>源文件\Sizeof</Filter>
+    </ClCompile>
+    <ClCompile Include="morevir.cpp">
+      <Filter>源文件\Sizeof</Filter>
+    </ClCompile>
+    <ClCompile Include="geninhe.cpp">
+      <Filter>源文件\Sizeof</Filter>
+    </ClCompile>
+    <ClCompile Include="virnhe.cpp">
+      <Filter>源文件\Sizeof</Filter>
+    </ClCompile>
+    <ClCompile Include="func_pointer.cpp">
+      <Filter>源文件\FuncPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="abstract_base.cpp">
+      <Filter>源文件\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="pure_virtual.cpp">
+      <Filter>源文件\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="abstract.cpp">
+      <Filter>源文件\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="interesting_facts1.cpp">
+      <Filter>源文件\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="interesting_facts2.cpp">
+      <Filter>源文件\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="interesting_facts3.cpp">
+      <Filter>源文件\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="interesting_facts4.cpp">
+      <Filter>源文件\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="interesting_facts5.cpp">
+      <Filter>源文件\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="derived_full.cpp">
+      <Filter>源文件\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="vptr1.cpp">
+      <Filter>源文件\Vptr_Vtable</Filter>
+    </ClCompile>
+    <ClCompile Include="emp.cpp">
+      <Filter>源文件\Virtual</Filter>
+    </ClCompile>
+    <ClCompile Include="default_arg.cpp">
+      <Filter>源文件\Virtual</Filter>
+    </ClCompile>
+    <ClCompile Include="static_error.cpp">
+      <Filter>源文件\Virtual</Filter>
+    </ClCompile>
+    <ClCompile Include="copy_consrtuct.cpp">
+      <Filter>源文件\Virtual</Filter>
+    </ClCompile>
+    <ClCompile Include="vir_con.cpp">
+      <Filter>源文件\Virtual</Filter>
+    </ClCompile>
+    <ClCompile Include="full_virde.cpp">
+      <Filter>源文件\Virtual</Filter>
+    </ClCompile>
+    <ClCompile Include="vir_de.cpp">
+      <Filter>源文件\Virtual</Filter>
+    </ClCompile>
+    <ClCompile Include="virtual_function.cpp">
+      <Filter>源文件\Virtual</Filter>
+    </ClCompile>
+    <ClCompile Include="virtual_function1.cpp">
+      <Filter>源文件\Virtual</Filter>
+    </ClCompile>
+    <ClCompile Include="virtual_inline.cpp">
+      <Filter>源文件\Virtual</Filter>
+    </ClCompile>
+    <ClCompile Include="rtti.cpp">
+      <Filter>源文件\Virtual</Filter>
+    </ClCompile>
+    <ClCompile Include="warn_rtti.cpp">
+      <Filter>源文件\Virtual</Filter>
+    </ClCompile>
+    <ClCompile Include="volatile1.cpp">
+      <Filter>源文件\Volatile</Filter>
+    </ClCompile>
+    <ClCompile Include="volatile2.cpp">
+      <Filter>源文件\Volatile</Filter>
+    </ClCompile>
+    <ClCompile Include="noopt_vola.cpp">
+      <Filter>源文件\Volatile</Filter>
+    </ClCompile>
+    <ClCompile Include="volatile.cpp">
+      <Filter>源文件\Volatile</Filter>
+    </ClCompile>
+    <ClCompile Include="assert.cpp">
+      <Filter>源文件\Assert</Filter>
+    </ClCompile>
+    <ClCompile Include="ignore_assert.cpp">
+      <Filter>源文件\Assert</Filter>
+    </ClCompile>
+    <ClCompile Include="BitField1.cpp">
+      <Filter>源文件\BitField</Filter>
+    </ClCompile>
+    <ClCompile Include="BitField2.cpp">
+      <Filter>源文件\BitField</Filter>
+    </ClCompile>
+    <ClCompile Include="BitField3.cpp">
+      <Filter>源文件\BitField</Filter>
+    </ClCompile>
+    <ClCompile Include="add.c">
+      <Filter>源文件\Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="add.cpp">
+      <Filter>源文件\Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="add1.cpp">
+      <Filter>源文件\Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="add1.c">
+      <Filter>源文件\Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="struct_func.c">
+      <Filter>源文件\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="struct_func.cpp">
+      <Filter>源文件\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="ext_struct_func.cpp">
+      <Filter>源文件\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="struct_func_func.cpp">
+      <Filter>源文件\Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="struct_class.cpp">
+      <Filter>源文件\Struct_Class</Filter>
+    </ClCompile>
+    <ClCompile Include="union.cpp">
+      <Filter>源文件\Union</Filter>
+    </ClCompile>
+    <ClCompile Include="c++_polyExamp.cpp">
+      <Filter>源文件\C++_C_poly</Filter>
+    </ClCompile>
+    <ClCompile Include="c_polyExamp.c">
+      <Filter>源文件\C++_C_poly</Filter>
+    </ClCompile>
+    <ClCompile Include="explicit.cpp">
+      <Filter>源文件\Explicit</Filter>
+    </ClCompile>
+    <ClCompile Include="friend_func.cpp">
+      <Filter>源文件\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="friend_class.cpp">
+      <Filter>源文件\Friend</Filter>
+    </ClCompile>
+    <ClCompile Include="using_global.cpp">
+      <Filter>源文件\Using</Filter>
+    </ClCompile>
+    <ClCompile Include="derived_base.cpp">
+      <Filter>源文件\Using</Filter>
+    </ClCompile>
+    <ClCompile Include="using_typedef.cpp">
+      <Filter>源文件\Using</Filter>
+    </ClCompile>
+    <ClCompile Include="maohao.cpp">
+      <Filter>源文件\::</Filter>
+    </ClCompile>
+    <ClCompile Include="tradition_color.cpp">
+      <Filter>源文件\Enum</Filter>
+    </ClCompile>
+    <ClCompile Include="classic_practice.cpp">
+      <Filter>源文件\Enum</Filter>
+    </ClCompile>
+    <ClCompile Include="enum_3.cpp">
+      <Filter>源文件\Enum</Filter>
+    </ClCompile>
+    <ClCompile Include="decltype1.cpp">
+      <Filter>源文件\Decltype</Filter>
+    </ClCompile>
+    <ClCompile Include="decltype2.cpp">
+      <Filter>源文件\Decltype</Filter>
+    </ClCompile>
+    <ClCompile Include="references1.cpp">
+      <Filter>源文件\References&amp;pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="references2.cpp">
+      <Filter>源文件\References&amp;pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="references3.cpp">
+      <Filter>源文件\References&amp;pointers</Filter>
+    </ClCompile>
+    <ClCompile Include="define1.cpp">
+      <Filter>源文件\Define</Filter>
+    </ClCompile>
+    <ClCompile Include="sig_examp.cpp">
+      <Filter>源文件\Define</Filter>
+    </ClCompile>
+    <ClCompile Include="define2.cpp">
+      <Filter>源文件\Define</Filter>
+    </ClCompile>
+    <ClCompile Include="do_while.cpp">
+      <Filter>源文件\Define</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inline.h">
+      <Filter>源文件\Inline</Filter>
+    </ClInclude>
+    <ClInclude Include="add.h">
+      <Filter>源文件\Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="add1.h">
+      <Filter>源文件\Extern</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
